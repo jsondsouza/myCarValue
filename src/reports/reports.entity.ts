@@ -1,11 +1,9 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
-export class Users {
+export class Reports {
   @PrimaryGeneratedColumn()
   id: number;
   @Column()
-  email: string;
-  @Column()
-  password: string;
+  price: string;
 }
